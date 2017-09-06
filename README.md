@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+This app will creat a music platform, where you can add you own music, share it with friends, leave commits, and also chat with others.
+Model: 1. User: NickName, email, Birthday, Description
+       2. Song: Type(String), Favorite(bollean), Description
