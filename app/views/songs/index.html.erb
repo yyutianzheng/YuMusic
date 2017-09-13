@@ -1,0 +1,10 @@
+<p>hi</p>
+<ul>
+<% @songs.each do |song| %>
+   <li><%= song.name %></li>
+<% end %>
+</ul>
+
+<%= link_to "Create song", songs_path, :method => :post %>
+
+
