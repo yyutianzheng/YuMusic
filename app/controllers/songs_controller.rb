@@ -11,7 +11,7 @@ class SongsController < ApplicationController
     @song = Song.new(song_params)
     respond_to do |format|
     if  @song.save
-     format.html { redirect_to songs_path, notice: 'Cocktail was successfully created.' }
+     format.html { redirect_to songs_path, notice: 'Song was successfully created.' }
     else
       format.html { render :new }
     end
@@ -20,6 +20,6 @@ end
 
     private
     def song_params
-      params.require(:song).permit(:name)
+      params.require(:song).permit(:name, :mp3)
     end
 end

@@ -29,6 +29,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'simple_form'
+gem 'bootstrap-sass'
+gem 'font-awesome-sass', '~> 4.7.0'
 gem "paperclip", git: "git://github.com/thoughtbot/paperclip.git"
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
